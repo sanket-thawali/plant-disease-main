@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/jpeg" href="%PUBLIC_URL%/fav.jpg" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>ई-कृषी TECH</title>
+    <style>
+      /* Custom styles for Google Translate element */
+      #google_translate_element {
+        position: fixed;
+        top: 13% !important;
+        right: 10px;
+        z-index: 1000;
+        background: #ffffffcc;
+        border-radius: 8px;
+        padding: 5px 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        font-family: 'Arial', sans-serif;
+        font-size: 14px;
+        color: #333;
+        user-select: none;
+      }
+      @media (max-width:600px) {
+        #google_translate_element{
+          top: 12% !important;
+          right: 67% !important;
+        }
+      }
+      /* Remove Google Translate default styles */
+      #google_translate_element * {
+        all: unset;
+        user-select: none;
+
+      }
+      /* Style the select dropdown */
+      #google_translate_element select {
+        all: unset;
+        cursor: pointer;
+        padding: 5px 8px;
+        border-radius: 6px;
+        background-color: #f0f0f0;
+        color: #333;
+        font-family: inherit;
+        font-size: 14px;
+        box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+      }
+      #google_translate_element select:hover {
+        background-color: #e0e0e0;
+      }
+      /* Style the option elements */
+      #google_translate_element select option {
+        color: #333;
+        background: white;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            includedLanguages: "en,hi,gu,bn,ta,te,kn,ml,mr,pa,ur,or,as,sd,ne,sa,ks,mai,dv,fr", // Add your supported languages here
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+          },
+          "google_translate_element"
+        );
+      }
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>    
+    <script>
+      function repositionTranslateElement() {
+        const translateEl = document.getElementById('google_translate_element');
+        if (translateEl) {
+          // Adjust this if your navbar height changes
+          const navbarHeight = document.querySelector('nav')?.offsetHeight || 70; // fallback to 70px
+          translateEl.style.position = 'absolute';
+          translateEl.style.top = `${navbarHeight + 10}px`; // place 10px below navbar
+        }
+      }
+    
+      // Run once on load
+      window.addEventListener('load', repositionTranslateElement);
+    
+      // Watch for Google Translate changes using MutationObserver
+      const observer = new MutationObserver(repositionTranslateElement);
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+    
+      // Also on resize (optional, helpful for responsiveness)
+      window.addEventListener('resize', repositionTranslateElement);
+    </script>    
+  </body>
+</html>

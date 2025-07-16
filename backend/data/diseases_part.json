@@ -1,0 +1,404 @@
+{
+  "diseases": [
+    {
+      "class_name": "Apple___Apple_scab",
+      "plant": "Apple",
+      "symptoms": [
+        "Dark, scabby lesions on leaves and fruit",
+        "Premature leaf drop"
+      ],
+      "prevention": [
+        "Use resistant varieties",
+        "Apply fungicides during growing season"
+      ],
+      "cure": [
+        "Prune infected branches",
+        "Apply appropriate fungicides"
+      ]
+    },
+    {
+      "class_name": "Apple___Black_rot",
+      "plant": "Apple",
+      "symptoms": [
+        "Black, sunken lesions on fruit",
+        "Leaf spots with concentric rings"
+      ],
+      "prevention": [
+        "Remove and destroy infected fruit and leaves",
+        "Maintain good orchard sanitation"
+      ],
+      "cure": [
+        "Apply fungicides",
+        "Prune affected areas"
+      ]
+    },
+    {
+      "class_name": "Apple___Cedar_apple_rust",
+      "plant": "Apple",
+      "symptoms": [
+        "Yellow-orange spots on leaves",
+        "Deformed fruit"
+      ],
+      "prevention": [
+        "Remove nearby cedar trees",
+        "Use resistant varieties"
+      ],
+      "cure": [
+        "Apply fungicides",
+        "Remove infected leaves"
+      ]
+    },
+    {
+      "class_name": "Cherry___Powdery_mildew",
+      "plant": "Cherry",
+      "symptoms": [
+        "White powdery coating on leaves and shoots",
+        "Distorted leaves"
+      ],
+      "prevention": [
+        "Ensure good air circulation",
+        "Apply fungicides early"
+      ],
+      "cure": [
+        "Prune affected areas",
+        "Apply fungicides"
+      ]
+    },
+    {
+      "class_name": "Corn___Cercospora_leaf_spot Gray_leaf_spot",
+      "plant": "Corn",
+      "symptoms": [
+        "Gray to tan leaf spots with dark borders",
+        "Leaf blight"
+      ],
+      "prevention": [
+        "Crop rotation",
+        "Use resistant hybrids"
+      ],
+      "cure": [
+        "Apply fungicides",
+        "Remove crop debris"
+      ]
+    },
+    {
+      "class_name": "Corn___Common_rust",
+      "plant": "Corn",
+      "symptoms": [
+        "Reddish-brown pustules on leaves",
+        "Leaf yellowing"
+      ],
+      "prevention": [
+        "Plant resistant varieties",
+        "Crop rotation"
+      ],
+      "cure": [
+        "Apply fungicides",
+        "Remove infected plants"
+      ]
+    },
+    {
+      "class_name": "Corn___Northern_Leaf_Blight",
+      "plant": "Corn",
+      "symptoms": [
+        "Long, tan lesions on leaves",
+        "Leaf death"
+      ],
+      "prevention": [
+        "Use resistant hybrids",
+        "Crop rotation"
+      ],
+      "cure": [
+        "Apply fungicides",
+        "Remove infected debris"
+      ]
+    },
+    {
+      "class_name": "Grape___Black_rot",
+      "plant": "Grapes",
+      "symptoms": [
+        "Black spots on leaves and fruit",
+        "Fruit rot"
+      ],
+      "prevention": [
+        "Prune to improve air circulation",
+        "Apply fungicides"
+      ],
+      "cure": [
+        "Remove infected fruit",
+        "Apply fungicides"
+      ]
+    },
+    {
+      "class_name": "Grape___Esca_(Black_Measles)",
+      "plant": "Grapes",
+      "symptoms": [
+        "Black spots on leaves",
+        "Wood decay"
+      ],
+      "prevention": [
+        "Use resistant rootstocks",
+        "Avoid wounding vines"
+      ],
+      "cure": [
+        "Remove infected wood",
+        "Apply fungicides"
+      ]
+    },
+    {
+      "class_name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "plant": "Grapes",
+      "symptoms": [
+        "Brown spots on leaves",
+        "Leaf drop"
+      ],
+      "prevention": [
+        "Prune for air circulation",
+        "Apply fungicides"
+      ],
+      "cure": [
+        "Remove infected leaves",
+        "Apply fungicides"
+      ]
+    },
+    {
+      "class_name": "Orange___Haunglongbing_(Citrus_greening)",
+      "plant": "Orange",
+      "symptoms": [
+        "Yellowing of leaves",
+        "Misshapen fruit"
+      ],
+      "prevention": [
+        "Control insect vectors",
+        "Use disease-free plants"
+      ],
+      "cure": [
+        "No cure available",
+        "Remove infected trees"
+      ]
+    },
+    {
+      "class_name": "Peach___Bacterial_spot",
+      "plant": "Peach",
+      "symptoms": [
+        "Small, water-soaked spots on leaves and fruit",
+        "Fruit lesions"
+      ],
+      "prevention": [
+        "Use resistant varieties",
+        "Apply copper sprays"
+      ],
+      "cure": [
+        "Remove infected fruit",
+        "Apply bactericides"
+      ]
+    },
+    {
+      "class_name": "Pepper,_bell___Bacterial_spot",
+      "plant": "Pepper Bell",
+      "symptoms": [
+        "Water-soaked spots on leaves and fruit",
+        "Fruit rot"
+      ],
+      "prevention": [
+        "Use certified seeds",
+        "Crop rotation"
+      ],
+      "cure": [
+        "Apply bactericides",
+        "Remove infected plants"
+      ]
+    },
+    {
+      "class_name": "Potato___Early_blight",
+      "plant": "Potato",
+      "symptoms": [
+        "Dark spots on leaves",
+        "Leaf yellowing"
+      ],
+      "prevention": [
+        "Use resistant varieties",
+        "Crop rotation"
+      ],
+      "cure": [
+        "Apply fungicides",
+        "Remove infected debris"
+      ]
+    },
+    {
+      "class_name": "Potato___Late_blight",
+      "plant": "Potato",
+      "symptoms": [
+        "Water-soaked lesions on leaves and stems",
+        "Rapid plant death"
+      ],
+      "prevention": [
+        "Use certified seed",
+        "Crop rotation"
+      ],
+      "cure": [
+        "Apply fungicides",
+        "Remove infected plants"
+      ]
+    },
+    {
+      "class_name": "Squash___Powdery_mildew",
+      "plant": "Squash",
+      "symptoms": [
+        "White powdery spots on leaves",
+        "Leaf curling"
+      ],
+      "prevention": [
+        "Plant resistant varieties",
+        "Ensure good air circulation"
+      ],
+      "cure": [
+        "Apply fungicides",
+        "Remove infected leaves"
+      ]
+    },
+    {
+      "class_name": "Strawberry___Leaf_scorch",
+      "plant": "Strawberry",
+      "symptoms": [
+        "Brown leaf edges",
+        "Leaf drop"
+      ],
+      "prevention": [
+        "Use disease-free plants",
+        "Avoid overhead watering"
+      ],
+      "cure": [
+        "Remove infected leaves",
+        "Apply fungicides"
+      ]
+    },
+    {
+      "class_name": "Tomato___Bacterial_spot",
+      "plant": "Tomato",
+      "symptoms": [
+        "Small, water-soaked spots on leaves and fruit",
+        "Fruit lesions"
+      ],
+      "prevention": [
+        "Use resistant varieties",
+        "Crop rotation"
+      ],
+      "cure": [
+        "Apply bactericides",
+        "Remove infected plants"
+      ]
+    },
+    {
+      "class_name": "Tomato___Early_blight",
+      "plant": "Tomato",
+      "symptoms": [
+        "Dark spots on leaves",
+        "Leaf yellowing"
+      ],
+      "prevention": [
+        "Use resistant varieties",
+        "Crop rotation"
+      ],
+      "cure": [
+        "Apply fungicides",
+        "Remove infected debris"
+      ]
+    },
+    {
+      "class_name": "Tomato___Late_blight",
+      "plant": "Tomato",
+      "symptoms": [
+        "Water-soaked lesions on leaves and stems",
+        "Rapid plant death"
+      ],
+      "prevention": [
+        "Use certified seed",
+        "Crop rotation"
+      ],
+      "cure": [
+        "Apply fungicides",
+        "Remove infected plants"
+      ]
+    },
+    {
+      "class_name": "Tomato___Leaf_Mold",
+      "plant": "Tomato",
+      "symptoms": [
+        "Yellow spots on upper leaf surfaces",
+        "Mold growth on undersides"
+      ],
+      "prevention": [
+        "Use resistant varieties",
+        "Ensure good air circulation"
+      ],
+      "cure": [
+        "Apply fungicides",
+        "Remove infected leaves"
+      ]
+    },
+    {
+      "class_name": "Tomato___Septoria_leaf_spot",
+      "plant": "Tomato",
+      "symptoms": [
+        "Small, circular leaf spots",
+        "Leaf drop"
+      ],
+      "prevention": [
+        "Use resistant varieties",
+        "Crop rotation"
+      ],
+      "cure": [
+        "Apply fungicides",
+        "Remove infected leaves"
+      ]
+    },
+    {
+      "class_name": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "plant": "Tomato",
+      "symptoms": [
+        "Yellow stippling on leaves",
+        "Webbing on plants"
+      ],
+      "prevention": [
+        "Use miticides",
+        "Encourage natural predators"
+      ],
+      "cure": [
+        "Apply miticides",
+        "Remove heavily infested plants"
+      ]
+    },
+    {
+      "class_name": "Tomato___Target_Spot",
+      "plant": "Tomato",
+      "symptoms": [
+        "Dark, target-like spots on leaves",
+        "Leaf drop"
+      ],
+      "prevention": [
+        "Use resistant varieties",
+        "Crop rotation"
+      ],
+      "cure": [
+        "Apply fungicides",
+        "Remove infected leaves"
+      ]
+    },
+    {
+      "class_name": "Tomato___Tomato_mosaic_virus",
+      "plant": "Tomato",
+      "symptoms": [
+        "Mosaic pattern on leaves",
+        "Leaf curling"
+      ],
+      "prevention": [
+        "Use virus-free seeds",
+        "Control insect vectors"
+      ],
+      "cure": [
+        "Remove infected plants",
+        "No chemical cure"
+      ]
+    }
+  ]
+}

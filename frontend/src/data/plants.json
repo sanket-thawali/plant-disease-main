@@ -1,0 +1,544 @@
+{
+  "plants": [
+    {
+      "id":1,
+      "name": "Tomato",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsdBhTMSiXhYaTInFGJ4kdEeujnWjfqo8WqA&s",
+      "diseases": [
+        {
+          "name": "Early Blight",
+          "description": "Caused by Alternaria solani, leading to dark spots on leaves."
+        },
+        {
+          "name": "Late Blight",
+          "description": "Caused by Phytophthora infestans, causing dark lesions."
+        }
+      ],
+      "description": "Tomatoes are a popular fruit used in various cuisines.",
+      "seasons": "Spring to Summer",
+      "uses": "Culinary uses, sauces, salads.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Pick when the fruit is fully colored and slightly firm.",
+      "pesticides": "Neem oil, Insecticidal soap.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Warm climate with full sun.",
+        "soil": "Well-drained, loamy soil."
+      },
+      "planting_and_cultivation": "Plant seeds indoors 6-8 weeks before the last frost.",
+      "irrigation_and_water_management": "Water regularly, keeping the soil moist but not soggy.",
+      "market_and_economic_information": "Tomatoes are widely grown and have a high market demand."
+
+    },
+    {
+      "id":2,
+      "name": "Potato",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeIBe1oEENKtZ2HeinHXRK10Z5I_8nlxw2SQ&s",
+      "diseases": [
+        {
+          "name": "Black Scurf",
+          "description": "Caused by Rhizoctonia solani, resulting in black, scaly patches."
+        },
+        {
+          "name": "Common Scab",
+          "description": "Caused by Streptomyces, forming scabby lesions."
+        }
+      ],
+      "description": "Potatoes are a starchy tuber and a staple food in many cultures.",
+      "seasons": "Spring to Summer",
+      "uses": "Mashed, fried, baked.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Harvest when the tops die back.",
+      "pesticides": "Bacillus thuringiensis, Pyrethrin.",
+      "fertilizers": "High potassium fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Cool climate with moderate rainfall.",
+        "soil": "Loose, well-drained soil."
+      },
+      "planting_and_cultivation": "Plant seed potatoes in rows, 12 inches apart.",
+      "irrigation_and_water_management": "Water deeply but infrequently.",
+      "market_and_economic_information": "Potatoes have a stable market demand."
+
+    },
+    {
+      "id":3,
+      "name": "Wheat",
+      "image_url": "https://www.farmatma.in/wp-content/uploads/2019/05/wheat-cultivation-india.jpg",
+      "diseases": [
+        {
+          "name": "Rust",
+          "description": "A fungal disease causing orange-red pustules on leaves."
+        },
+        {
+          "name": "Powdery Mildew",
+          "description": "Characterized by white powdery fungal growth."
+        }
+      ],
+      "description": "Wheat is a major cereal grain and a staple food worldwide.",
+      "seasons": "Fall to Spring",
+      "uses": "Flour, bread, pasta.",
+      "harvesting_seasons": "Summer",
+      "how_to_harvest": "Cut the stalks when the grains are hard.",
+      "pesticides": "Fungicides, Insecticides.",
+      "fertilizers": "Nitrogen-rich fertilizers.",
+      "climate_and_soil_requirements": {
+        "climate": "Temperate climate with moderate rainfall.",
+        "soil": "Fertile, well-drained soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Irrigate during dry spells.",
+      "market_and_economic_information": "Wheat has a high global market demand."
+
+    },
+    {
+      "id":4,
+      "name": "Corn",
+      "image_url": "https://www.shutterstock.com/image-photo/corn-cobs-plantation-field-600nw-2477557971.jpg",
+      "diseases": [
+        {
+          "name": "Corn Smut",
+          "description": "A fungal disease causing galls on ears and kernels."
+        },
+        {
+          "name": "Gray Leaf Spot",
+          "description": "A fungal disease causing gray lesions on leaves."
+        }
+      ],
+      "description": "Corn is a versatile crop used for food, feed, and fuel.",
+      "seasons": "Spring to Summer",
+      "uses": "Cornmeal, popcorn, animal feed.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Harvest when the kernels are firm and full.",
+      "pesticides": "Insecticidal soap, Neem oil.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Warm climate with full sun.",
+        "soil": "Loamy, well-drained soil."
+      },
+      "planting_and_cultivation": "Plant seeds in rows after the last frost.",
+      "irrigation_and_water_management": "Water regularly, especially during dry spells.",
+      "market_and_economic_information": "Corn has a high market demand."
+
+    },
+    {
+      "id":5,
+      "name": "Rice",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4FArXQuGECLU50-0bBjXg53jJKir-pAR2wQ&s",
+      "diseases": [
+        {
+          "name": "Rice Blast",
+          "description": "A fungal disease causing lesions on leaves and panicles."
+        },
+        {
+          "name": "Bacterial Blight",
+          "description": "Caused by bacteria, leading to water-soaked lesions."
+        }
+      ],
+      "description": "Rice is a staple food for more than half of the world's population.",
+      "seasons": "Warm, wet seasons",
+      "uses": "Cooked rice, rice flour.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Cut the stalks when the grains are mature.",
+      "pesticides": "Fungicides, Insecticides.",
+      "fertilizers": "Nitrogen-rich fertilizers.",
+      "climate_and_soil_requirements": {
+        "climate": "Tropical to subtropical climate.",
+        "soil": "Flood-prone, clayey soil."
+      },
+      "planting_and_cultivation": "Sow seeds in puddled fields.",
+      "irrigation_and_water_management": "Maintain water levels in fields.",
+      "market_and_economic_information": "Rice has a stable market demand."
+
+    },
+    {
+      "id":6,
+      "name": "Barley",
+      "image_url": "https://upaj.ag/cdn/shop/articles/Barley.png?v=1724838064&width=1100",
+      "diseases": [
+        {
+          "name": "Barley Yellow Dwarf",
+          "description": "A viral disease causing yellowing and stunting."
+        },
+        {
+          "name": "Net Blotch",
+          "description": "A fungal disease causing dark lesions on leaves."
+        }
+      ],
+      "description": "Barley is a key ingredient in beer and animal feed.",
+      "seasons": "Spring to Summer",
+      "uses": "Barley flour, animal feed.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Cut the stalks when the grains are ripe.",
+      "pesticides": "Insecticidal soap, Fungicides.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Cool climate with moderate rainfall.",
+        "soil": "Well-drained, loamy soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Water during dry spells.",
+      "market_and_economic_information": "Barley has a stable market demand."
+
+    },
+    {
+      "id":7,
+      "name": "Oats",
+      "image_url": "https://www.epicgardening.com/wp-content/uploads/2022/01/Growing-oats-becoming-ripe-ready-for-harvest.jpg",
+      "diseases": [
+        {
+          "name": "Crown Rust",
+          "description": "A fungal disease causing yellow-orange pustules."
+        },
+        {
+          "name": "Powdery Mildew",
+          "description": "Characterized by white powdery growth on leaves."
+        }
+      ],
+      "description": "Oats are a nutritious grain used for food and animal feed.",
+      "seasons": "Spring to Summer",
+      "uses": "Oatmeal, animal feed.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Cut the stalks when the grains are ripe.",
+      "pesticides": "Insecticidal soap, Fungicides.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Cool climate with moderate rainfall.",
+        "soil": "Well-drained, loamy soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Water during dry spells.",
+      "market_and_economic_information": "Oats have a stable market demand."
+
+    },
+    {
+      "id":8,
+      "name": "Soybean",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4MYR7-4x_YL6qR5vhLYAUb3ULVp0QttYc6g&s",
+      "diseases": [
+        {
+          "name": "Soybean Rust",
+          "description": "A fungal disease causing reddish-brown lesions."
+        },
+        {
+          "name": "Bacterial Blight",
+          "description": "Caused by bacteria, leading to leaf spots."
+        }
+      ],
+      "description": "Soybeans are a versatile crop used for food and oil.",
+      "seasons": "Spring to Summer",
+      "uses": "Soy milk, tofu, animal feed.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Cut the stalks when the pods are mature.",
+      "pesticides": "Insecticidal soap, Neem oil.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Warm climate with full sun.",
+        "soil": "Well-drained, loamy soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Water during dry spells.",
+      "market_and_economic_information": "Soybeans have a high market demand."
+
+    },
+    {
+      "id":9,
+      "name": "Peanut",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGEvwsI-q7G-CEGSDEZxoLgDowW97YTjfUmw&s",
+      "diseases": [
+        {
+          "name": "Leaf Spot",
+          "description": "A fungal disease causing dark spots on leaves."
+        },
+        {
+          "name": "Southern Blight",
+          "description": "A soil-borne disease causing wilting and decay."
+        }
+      ],
+      "description": "Peanuts are a nutritious legume used for food and oil.",
+      "seasons": "Spring to Summer",
+      "uses": "Peanut butter, snacks.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Pull the plants when the leaves turn yellow.",
+      "pesticides": "Insecticidal soap, Neem oil.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Warm climate with full sun.",
+        "soil": "Well-drained, sandy soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Water during dry spells.",
+      "market_and_economic_information": "Peanuts have a high market demand."
+
+    },
+    {
+      "id":10,
+      "name": "Cabbage",
+      "image_url": "https://assets.clevelandclinic.org/transform/871f96ae-a852-4801-8675-683191ce372d/Benefits-Of-Cabbage-589153824-770x533-1_jpg",
+      "diseases": [
+        {
+          "name": "Black Rot",
+          "description": "A bacterial disease causing yellow V-shaped lesions."
+        },
+        {
+          "name": "Downy Mildew",
+          "description": "A fungal disease causing yellowing and wilting."
+        }
+      ],
+      "description": "Cabbage is a leafy green vegetable used in salads and cooking.",
+      "seasons": "Spring to Fall",
+      "uses": "Salads, soups, fermented foods.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Cut the heads when they are firm.",
+      "pesticides": "Insecticidal soap, Neem oil.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Cool climate with moderate rainfall.",
+        "soil": "Well-drained, loamy soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Water during dry spells.",
+      "market_and_economic_information": "Cabbage has a stable market demand."
+
+    },
+    {
+      "id":11,
+      "name": "Carrot",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTba3FfUO6CI9cySnHdGt1roZY60bdUInxLXQ&s",
+      "diseases": [
+        {
+          "name": "Carrot Rust Fly",
+          "description": "A pest causing damage to roots."
+        },
+        {
+          "name": "Cavity Spot",
+          "description": "A fungal disease causing cavities in roots."
+        }
+      ],
+      "description": "Carrots are a root vegetable rich in vitamins.",
+      "seasons": "Spring to Fall",
+      "uses": "Raw, cooked, juiced.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Pull the roots when they are mature.",
+      "pesticides": "Insecticidal soap, Neem oil.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Cool climate with well-drained soil.",
+        "soil": "Sandy, loamy soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Water during dry spells.",
+      "market_and_economic_information": "Carrots have a stable market demand."
+
+    },
+    {
+      "id":12,
+      "name": "Lettuce",
+      "image_url": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/03/romaine-lettuce-1296x728-body.jpg?w=1155&h=1528",
+      "diseases": [
+        {
+          "name": "Downy Mildew",
+          "description": "A fungal disease causing yellowing and wilting."
+        },
+        {
+          "name": "Lettuce Mosaic",
+          "description": "A viral disease causing mottled leaves."
+        }
+      ],
+      "description": "Lettuce is a leafy green vegetable used in salads.",
+      "seasons": "Spring to Fall",
+      "uses": "Salads, sandwiches.",
+      "harvesting_seasons": "Late Spring to Early Summer",
+      "how_to_harvest": "Cut the leaves when they are young.",
+      "pesticides": "Insecticidal soap, Neem oil.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Cool climate with moderate rainfall.",
+        "soil": "Well-drained, loamy soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Water regularly to keep soil moist.",
+      "market_and_economic_information": "Lettuce has a high market demand."
+
+    },
+    {
+      "id":13,
+      "name": "Onion",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSADEnKzWzJM2ykhE4CGWqkBrYNmZwb7iDHfg&s",
+      "diseases": [
+        {
+          "name": "Downy Mildew",
+          "description": "A fungal disease causing yellowing and wilting."
+        },
+        {
+          "name": "Onion Fly",
+          "description": "A pest causing damage to bulbs."
+        }
+      ],
+      "description": "Onions are a staple vegetable used in cooking.",
+      "seasons": "Spring to Fall",
+      "uses": "Flavoring, cooking.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Pull the bulbs when the tops die back.",
+      "pesticides": "Insecticidal soap, Neem oil.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Cool climate with well-drained soil.",
+        "soil": "Sandy, loamy soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Water during dry spells.",
+      "market_and_economic_information": "Onions have a stable market demand."
+
+    },
+    {
+      "id":14,
+      "name": "Pumpkin",
+      "image_url": "https://www.thespruce.com/thmb/WFSkpFrvIfRfDAMaob945M4UgKA=/2116x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-147003040-86f76dfc543d4a719eed6ccd3395c2b7.jpg",
+      "diseases": [
+        {
+          "name": "Powdery Mildew",
+          "description": "Characterized by white powdery growth on leaves."
+        },
+        {
+          "name": "Crown Rot",
+          "description": "A fungal disease causing decay at the base."
+        }
+      ],
+      "description": "Pumpkin is a versatile vegetable used in cooking and baking.",
+      "seasons": "Spring to Fall",
+      "uses": "Soups, pies, decorations.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Cut the fruit from the vine.",
+      "pesticides": "Insecticidal soap, Neem oil.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Warm climate with full sun.",
+        "soil": "Well-drained, loamy soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Water regularly during dry spells.",
+      "market_and_economic_information": "Pumpkins have a high market demand."
+
+    },
+    {
+      "id":15,
+      "name": "Bell Pepper",
+      "image_url": "https://rukminim2.flixcart.com/image/850/1000/xif0q/plant-seed/b/o/i/200-capsim-01n411-kirat-original-imaggwafqxuenfrk.jpeg?q=90&crop=false",
+      "diseases": [
+        {
+          "name": "Bacterial Spot",
+          "description": "A bacterial disease causing dark spots on leaves."
+        },
+        {
+          "name": "Powdery Mildew",
+          "description": "Characterized by white powdery growth."
+        }
+      ],
+      "description": "Bell peppers are a sweet pepper used in various dishes.",
+      "seasons": "Spring to Fall",
+      "uses": "Salads, cooking.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Pick when the peppers are firm and colorful.",
+      "pesticides": "Insecticidal soap, Neem oil.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Warm climate with full sun.",
+        "soil": "Well-drained, loamy soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Water regularly during dry spells.",
+      "market_and_economic_information": "Bell peppers have a high market demand."
+
+    },
+    {
+      "id":16,
+      "name": "Eggplant",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi95TNKiPQ1SDTVIM4KR38Kp6_LmLepX0_MA&s",
+      "diseases": [
+        {
+          "name": "Fusarium Wilt",
+          "description": "A fungal disease causing wilting and yellowing."
+        },
+        {
+          "name": "Bacterial Wilt",
+          "description": "A bacterial disease causing wilting."
+        }
+      ],
+      "description": "Eggplant is a versatile vegetable used in various cuisines.",
+      "seasons": "Spring to Fall",
+      "uses": "Grilled, roasted, stews.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Pick when the fruit is glossy and firm.",
+      "pesticides": "Insecticidal soap, Neem oil.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Warm climate with full sun.",
+        "soil": "Well-drained, loamy soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Water regularly during dry spells.",
+      "market_and_economic_information": "Eggplants have a high market demand."
+
+    },
+    {
+      "id":17,
+      "name": "Zucchini",
+      "image_url": "https://cdn.shopify.com/s/files/1/0579/7924/0580/files/3d6003a514_480x480.jpg?v=1705388273",
+      "diseases": [
+        {
+          "name": "Powdery Mildew",
+          "description": "Characterized by white powdery growth."
+        },
+        {
+          "name": "Bacterial Wilt",
+          "description": "A bacterial disease causing wilting."
+        }
+      ],
+      "description": "Zucchini is a summer squash used in various dishes.",
+      "seasons": "Spring to Fall",
+      "uses": "Grilled, sautéed, baked.",
+      "harvesting_seasons": "Late Summer to Early Fall",
+      "how_to_harvest": "Pick when the fruit is young and tender.",
+      "pesticides": "Insecticidal soap, Neem oil.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Warm climate with full sun.",
+        "soil": "Well-drained, loamy soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Water regularly during dry spells.",
+      "market_and_economic_information": "Zucchini has a high market demand."
+
+    },
+    {
+      "id":18,
+      "name": "Radish",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8WTxVmXY05r3nlDbU6AQXASPu3jyXwOUEkw&s",
+      "diseases": [
+        {
+          "name": "Flea Beetle",
+          "description": "A pest causing holes in leaves."
+        },
+        {
+          "name": "Downy Mildew",
+          "description": "A fungal disease causing yellowing."
+        }
+      ],
+      "description": "Radishes are a root vegetable known for their peppery flavor.",
+      "seasons": "Spring to Fall",
+      "uses": "Salads, garnishes.",
+      "harvesting_seasons": "Late Spring to Early Summer",
+      "how_to_harvest": "Pull the roots when they are mature.",
+      "pesticides": "Insecticidal soap, Neem oil.",
+      "fertilizers": "Balanced NPK fertilizer.",
+      "climate_and_soil_requirements": {
+        "climate": "Cool climate with well-drained soil.",
+        "soil": "Sandy, loamy soil."
+      },
+      "planting_and_cultivation": "Sow seeds in well-prepared soil.",
+      "irrigation_and_water_management": "Water during dry spells.",
+      "market_and_economic_information": "Radishes have a stable market demand."
+
+    }
+  ]
+}

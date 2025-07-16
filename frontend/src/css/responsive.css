@@ -1,0 +1,133 @@
+
+/* Responsive CSS for mobile and large devices */
+
+/* Mobile devices (max-width: 600px) */
+@media (max-width: 600px) {
+  /* Navbar adjustments */
+  .navbar {
+    flex-direction: column !important;
+    height: auto !important;
+    padding: 10px !important;
+  }
+  .nav-title {
+    margin-bottom: 10px !important;
+  }
+  .navbar nav {
+    flex-direction: column !important;
+    padding: 0 !important;
+  }
+  .nav-item {
+    margin: 8px 0 !important;
+  }
+  .nav-link, .logout-button {
+    font-size: 14px !important;
+    padding: 8px 12px !important;
+  }
+  .greetingsText, .userIdText {
+    font-size: 14px !important;
+    margin-right: 4px !important;
+  }
+
+  /* Auth forms */
+  .auth-container {
+    max-width: 90% !important;
+    padding: 10px !important;
+  }
+  .auth-button {
+    flex-direction: column !important;
+  }
+  .auth-button button {
+    margin: 10px 0 !important;
+  }
+
+  /* Plant cards */
+  .plant-card {
+    width: 90% !important;
+    height: auto !important;
+    margin: 10px auto !important;
+  }
+
+  /* Plant details and info pages */
+  .plant-detail-card, .plant-info-page {
+    width: 95% !important;
+    padding: 10px !important;
+    margin: 10px auto !important;
+  }
+
+  /* Other general adjustments */
+  body {
+    font-size: 14px !important;
+  }
+}
+
+/* Tablets and small desktops (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .navbar {
+    height: 70px !important;
+    padding: 0 10px !important;
+  }
+  .nav-link, .logout-button {
+    font-size: 15px !important;
+    padding: 8px 14px !important;
+  }
+  .greetingsText, .userIdText {
+    font-size: 15px !important;
+    margin-right: 6px !important;
+  }
+  .plant-card {
+    width: 45% !important;
+    margin: 10px auto !important;
+  }
+  .plant-detail-card, .plant-info-page {
+    width: 90% !important;
+    padding: 15px !important;
+    margin: 15px auto !important;
+  }
+  body {
+    font-size: 15px !important;
+  }
+}
+
+/* Large desktops (min-width: 901px) */
+@media (min-width: 901px) {
+  .navbar {
+    height: 75px !important;
+    padding: 0 15px !important;
+  }
+  .nav-link, .logout-button {
+    font-size: 16px !important;
+    padding: 10px !important;
+  }
+  .greetingsText, .userIdText {
+    font-size: 16px !important;
+    margin-right: 8px !important;
+  }
+  .plant-card {
+    width: 200px !important;
+    margin: 10px !important;
+  }
+  .plant-detail-card, .plant-info-page {
+    width: 800px !important;
+    padding: 20px !important;
+    margin: 20px auto !important;
+  }
+  body {
+    font-size: 16px !important;
+  }
+}
+
+/* Additional media query for laptops (901px to 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .plant-card {
+    width: 150px !important;
+    margin: 10px !important;
+  }
+  .plant-detail-card, .plant-info-page {
+    width: 700px !important;
+    padding: 15px !important;
+    margin: 15px auto !important;
+  }
+  body {
+    font-size: 15px !important;
+  }
+}

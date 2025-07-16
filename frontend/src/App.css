@@ -1,0 +1,187 @@
+/* Add your styles here */
+
+/* Styles for Plant Detail Page */
+.plant-detail-page {
+    padding: 20px;
+    text-align: center;
+}
+
+.plant-detail-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.plant-detail-page img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.plant-detail-page h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.plant-detail-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plant-detail-page li {
+    margin: 5px 0;
+}
+
+
+/* Styles for Plant Information Page */
+.plant-info-page {
+  padding: 120px;
+  
+}
+
+.plant-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* display: flex; */
+  justify-content: center;
+}
+.plant-card-list a{
+  text-decoration: none;
+  color: black;
+}
+.Disease-info-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  /* width: 200px; */
+  text-align: center;
+}
+
+.plant-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+body {
+  background-image: url('./images/background.jpg');
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the background image */
+  height: 100vh; /* Full height */
+  margin: 0; /* Remove default margin */
+  
+}
+.container {
+
+  background-size: cover; /* Cover the entire container */
+  background-position: center; 
+}
+.about-container {
+  padding: 20px; /* Increase padding for better spacing */
+  background-color: rgba(245, 237, 237, 0.998); /* Add semi-transparent background */
+
+  /* margin-top: 100px; Increase margin to position clearly below the navbar */
+  position: relative;
+  top: 125px;
+  /* background-image: url('../images/background.jpg'); Placeholder image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 600px; /* Limit the width for better readability */
+  margin: auto; /* Center the container */
+  /* margin: auto; Center the container */
+}
+@media (max-width: 768px) {
+  .about-container {
+    top: 100px; /* Adjust positioning for smaller screens */
+    width: 95%; /* Increase width slightly for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    top: 80px; /* Further adjust top margin */
+    padding: 15px; /* Reduce padding */
+  }
+}
+.about-container h2 {
+  color: #ffcc00; /* Change heading color for better visibility */
+
+
+  font-size: 2.5em; /* Increase heading size */
+  margin-bottom: 15px;
+}
+
+.about-container p {
+  color: #1e1a1a; /* Change paragraph color for better visibility */
+
+
+  font-size: 1.1em; /* Adjust font size */
+  margin-bottom: 20px;
+}
+
+.about-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container input {
+  margin-bottom: 15px; /* Increase spacing between inputs */
+  padding: 12px; /* Increase padding for better touch targets */
+  border: 1px solid #bdc3c7; /* Lighter border color */
+  border-radius: 5px;
+}
+
+.about-container button {
+  padding: 12px;
+  background-color: #2980b9; /* Change button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about-container button:hover {
+  background-color: #1f6391; /* Darker shade on hover */
+}
+
+
+.about-container h2 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.about-container p {
+  color: #1a1818;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.about-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.about-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.about-container button:hover {
+  background-color: #0056b3;
+}
+
+

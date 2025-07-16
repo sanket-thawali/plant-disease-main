@@ -1,0 +1,706 @@
+{
+  "diseases": [
+    {
+      "class_name": "Apple___Apple_scab",
+      "plant": "Apple",
+      "symptoms": [
+        "Dark, scabby lesions primarily on the upper surface of leaves and fruit skin",
+        "Premature leaf drop, leading to weakened trees",
+        "Olive-green to black velvety spots on leaves and young shoots",
+        "Deformed, cracked, and discolored fruit",
+        "Reduced fruit size and quality"
+      ],
+      "causes": [
+        "Fungal spores (Venturia inaequalis) overwinter in fallen leaves and fruit debris",
+        "Spread occurs primarily through wind-driven rain during spring and early summer",
+        "Infection is favored by prolonged leaf wetness and temperatures between 55–75°F (13–24°C)",
+        "High humidity environments encourage the rapid development of the disease",
+        "Neglecting orchard sanitation increases inoculum for the next season"
+      ],
+      "prevention": [
+        "Plant resistant apple cultivars whenever possible",
+        "Prune trees to improve air circulation and sunlight penetration",
+        "Rake and destroy fallen leaves and fruit to reduce overwintering spores",
+        "Apply protective fungicide sprays starting from early bud break throughout the growing season",
+        "Implement proper irrigation practices to avoid excessive leaf wetness",
+        "Use mulches to minimize soil splash onto leaves during rain"
+      ],
+      "cure": [
+        "Remove and destroy infected leaves, fruits, and branches during the growing season",
+        "Apply systemic and protective fungicides like captan, mancozeb, or myclobutanil as per agricultural extension guidelines",
+        "Perform regular monitoring and early intervention upon first signs of infection",
+        "Improve tree vigor through proper fertilization and watering to enhance natural resistance",
+        "Consider using organic fungicides such as sulfur-based products for eco-friendly control"
+      ]
+    },
+    {
+      "class_name": "Apple___Black_rot",
+      "plant": "Apple",
+      "symptoms": [
+          "Black, sunken lesions with concentric ring patterns on fruit ('frog-eye' spots)",
+          "Small purple spots on leaves that expand into large necrotic areas",
+          "Twigs may show cankers, causing dieback",
+          "Shriveled, mummified fruits remain attached to the tree",
+          "Fruits rot internally and emit a foul odor at later stages"
+      ],
+      "causes": [
+          "Fungal pathogen Botryosphaeria obtusa survives in cankers, dead wood, and mummified fruits",
+          "Rain splash disperses fungal spores to healthy tissues",
+          "Wounds and insect injuries on fruit provide entry points",
+          "High temperatures and humid conditions increase severity",
+          "Neglected orchard sanitation promotes disease persistence"
+      ],
+      "prevention": [
+          "Prune and remove all dead wood and infected branches annually",
+          "Ensure good orchard sanitation by removing mummified fruits",
+          "Apply protective fungicides during bloom and fruit development stages",
+          "Use resistant apple varieties when available",
+          "Avoid mechanical injuries to trees during mowing or harvesting"
+      ],
+      "cure": [
+          "Apply fungicides such as captan or thiophanate-methyl at early signs",
+          "Cut out cankers at least 6 inches below visible symptoms",
+          "Improve drainage and avoid overwatering",
+          "Maintain tree health with balanced nutrition to reduce susceptibility",
+          "Consider biological controls like Trichoderma-based products"
+      ]
+  },
+  {
+    "class_name": "Apple___Cedar_apple_rust",
+    "plant": "Apple",
+    "symptoms": [
+      "Bright yellow-orange spots form on the upper surface of apple leaves.",
+      "Spots enlarge and may develop tube-like projections underneath leaves.",
+      "Fruit may develop small, deformed, and blemished areas, leading to poor quality.",
+      "Premature leaf drop and reduced fruit yield.",
+      "Leaves may curl or become distorted under heavy infections."
+    ],
+    "causes": [
+      "Caused by the fungus Gymnosporangium juniperi-virginianae.",
+      "Fungus needs two hosts: apple trees and cedar/juniper trees to complete its life cycle.",
+      "Spores are produced on cedar trees in early spring and travel by wind to infect apple trees.",
+      "Wet and warm conditions favor spore release and infection."
+    ],
+    "prevention": [
+      "Remove nearby cedar or juniper trees within a 2–5 mile radius if possible.",
+      "Choose resistant apple varieties such as Liberty and Freedom.",
+      "Apply preventive fungicides starting at the pink bud stage through to the petal fall.",
+      "Prune trees regularly to promote good airflow and reduce moisture.",
+      "Avoid planting susceptible apple varieties near cedar trees."
+    ],
+    "cure": [
+      "Apply systemic fungicides like myclobutanil or propiconazole during early stages.",
+      "Remove and destroy infected leaves or fruit.",
+      "Prune galls from cedar trees during winter to break the disease cycle.",
+      "Increase tree health with proper fertilization and irrigation."
+    ]
+  },
+  {
+    "class_name": "Cherry___Powdery_mildew",
+    "plant": "Cherry",
+    "symptoms": [
+      "A white, powdery fungal growth appears on young leaves, shoots, and sometimes fruit.",
+      "Leaves may curl, twist, and become discolored.",
+      "Severely infected leaves may fall off prematurely.",
+      "Shoots may be stunted, and fruit development can be negatively affected.",
+      "Fine web-like fungal growth visible under humid conditions."
+    ],
+    "causes": [
+      "Caused by the fungus Podosphaera clandestina.",
+      "Spores spread through air currents and infect young, actively growing tissues.",
+      "Dry, warm days with humid nights favor the disease.",
+      "Dense canopies with poor air circulation enhance the risk."
+    ],
+    "prevention": [
+      "Prune trees to open canopies and improve air circulation.",
+      "Water trees at soil level rather than overhead to keep foliage dry.",
+      "Choose resistant varieties where available.",
+      "Apply sulfur-based or systemic fungicides preventively.",
+      "Avoid excessive nitrogen fertilization that promotes lush, susceptible growth."
+    ],
+    "cure": [
+      "Apply fungicides like sulfur, myclobutanil, or potassium bicarbonate.",
+      "Prune and remove heavily infected shoots and leaves immediately.",
+      "Dispose of infected plant material far away from the orchard.",
+      "Repeat fungicide sprays if humid conditions persist."
+    ]
+  },
+  {
+    "class_name": "Corn___Cercospora_leaf_spot_Gray_leaf_spot",
+    "plant": "Corn",
+    "symptoms": [
+      "Long, narrow, rectangular gray to tan lesions on leaves with dark borders.",
+      "Lesions may coalesce, causing large dead patches on leaves.",
+      "Reduced photosynthesis leading to stunted plant growth.",
+      "Severe infections may cause leaves to die prematurely.",
+      "Yield loss due to less grain fill and poor ear development."
+    ],
+    "causes": [
+      "Caused by the fungus Cercospora zeae-maydis.",
+      "Fungal spores overwinter in corn debris left on the field surface.",
+      "Spores are spread by wind and rain splash during warm, humid conditions.",
+      "High humidity and leaf wetness for over 12 hours promote infection."
+    ],
+    "prevention": [
+      "Practice crop rotation with non-host crops like soybeans.",
+      "Use disease-resistant corn hybrids.",
+      "Bury crop debris by deep tillage to reduce spore survival.",
+      "Maintain adequate plant spacing to promote airflow and reduce humidity.",
+      "Apply fungicides at the VT (tasseling) stage if disease pressure is high."
+    ],
+    "cure": [
+      "Use fungicides such as strobilurins or triazoles early in disease development.",
+      "Scout fields regularly to catch infections early.",
+      "Remove infected debris after harvest.",
+      "Implement integrated pest management strategies."
+    ]
+  },
+  {
+    "class_name": "Corn___Common_rust",
+    "plant": "Corn",
+    "symptoms": [
+      "Reddish-brown pustules develop on both upper and lower leaf surfaces.",
+      "Pustules may merge, causing larger areas of dead tissue.",
+      "Infected leaves may yellow and dry up prematurely.",
+      "Severe infection can cause reduced photosynthesis and stunted growth.",
+      "Ears may be smaller and poorly filled if infection is early."
+    ],
+    "causes": [
+      "Caused by the fungus Puccinia sorghi.",
+      "Spores are spread by wind over long distances.",
+      "Infection favored by moist, cool to moderately warm temperatures (60-77°F).",
+      "Heavy dew and extended periods of leaf wetness accelerate disease spread."
+    ],
+    "prevention": [
+      "Plant resistant corn hybrids adapted to local conditions.",
+      "Implement crop rotation to break the disease cycle.",
+      "Maintain proper field sanitation by removing volunteer corn plants.",
+      "Plant early to avoid peak spore arrival times."
+    ],
+    "cure": [
+      "Apply fungicides like azoxystrobin or propiconazole at early disease stages.",
+      "Scout fields regularly to identify infections early.",
+      "Remove infected crop residues after harvest to reduce overwintering spores.",
+      "Optimize plant density to promote airflow."
+    ]
+  },
+  {
+    "class_name": "Corn___Northern_Leaf_Blight",
+    "plant": "Corn",
+    "symptoms": [
+      "Large, cigar-shaped, tan to gray lesions form on leaves.",
+      "Lesions often start on lower leaves and move upward.",
+      "Infected leaves may die, reducing photosynthesis.",
+      "Plants may appear drought-stressed even with adequate soil moisture.",
+      "Significant yield loss if infection occurs before or during flowering."
+    ],
+    "causes": [
+      "Caused by the fungus Exserohilum turcicum.",
+      "Spores overwinter in corn debris and are spread by wind and rain.",
+      "Infection favored by cool, moist weather (64–80°F).",
+      "High humidity and prolonged leaf wetness promote disease development."
+    ],
+    "prevention": [
+      "Plant resistant or tolerant corn varieties.",
+      "Rotate crops to non-host species like soybeans or alfalfa.",
+      "Plow under or remove infected debris to limit overwintering spores.",
+      "Apply fungicides as a preventive measure when conditions favor infection."
+    ],
+    "cure": [
+      "Use fungicides containing strobilurins, triazoles, or SDHI groups.",
+      "Scout early and frequently during critical growth stages (V8 to R1).",
+      "Optimize nutrient management to enhance plant vigor.",
+      "Avoid continuous corn planting in high-risk areas."
+    ]
+  },
+  {
+    "class_name": "Grape___Black_rot",
+    "plant": "Grapes",
+    "symptoms": [
+      "Tiny black spots on leaves that enlarge and develop tan centers.",
+      "Dark, shriveled, and mummified fruit hanging on the vine.",
+      "Circular lesions with black margins on stems and shoots.",
+      "Fruit rot results in complete crop loss if not controlled.",
+      "Leaf spots sometimes have small black fungal structures (pycnidia) in them."
+    ],
+    "causes": [
+      "Caused by the fungus Guignardia bidwellii.",
+      "Overwinters in mummified fruit and infected shoots.",
+      "Spread by splashing rain and wind during wet, warm periods.",
+      "Infection most severe during humid, rainy weather in late spring and early summer."
+    ],
+    "prevention": [
+      "Remove and destroy all mummified fruit and infected plant parts.",
+      "Apply fungicides preventively, especially before wet periods.",
+      "Prune vines to improve sunlight penetration and air circulation.",
+      "Choose disease-tolerant grape varieties where possible."
+    ],
+    "cure": [
+      "Spray fungicides like captan, myclobutanil, or mancozeb at regular intervals.",
+      "Remove infected fruits and leaves immediately to reduce inoculum.",
+      "Maintain a well-balanced fertilization program to encourage healthy growth.",
+      "Use cultural practices combined with chemical control for best results."
+    ]
+  },
+  {
+    "class_name": "Grape___Esca_(Black_Measles)",
+    "plant": "Grapes",
+    "symptoms": [
+      "Interveinal yellowing and browning of leaves, often with tiger-stripe patterns.",
+      "Black spots and streaks appear on the wood and trunk (wood decay).",
+      "Berries may shrivel, darken, and split open, emitting a sour odor.",
+      "Sudden wilting and vine collapse in hot weather.",
+      "Reduced fruit yield and vine vigor over time."
+    ],
+    "causes": [
+      "Caused by a complex of fungi including Phaeomoniella chlamydospora and Fomitiporia mediterranea.",
+      "Infection enters through pruning wounds.",
+      "Spores spread by rain splash and contaminated pruning tools.",
+      "Dry, stressed vines are more susceptible to infection."
+    ],
+    "prevention": [
+      "Avoid pruning during wet weather to minimize infection risk.",
+      "Seal pruning wounds with wound protectants or fungicides.",
+      "Use healthy, disease-free planting material.",
+      "Implement proper vineyard sanitation and remove infected vines."
+    ],
+    "cure": [
+      "There is no complete cure once a vine is heavily infected.",
+      "Prune and remove infected wood early to slow disease progression.",
+      "Apply fungicides that protect pruning wounds.",
+      "Maintain vine vigor through proper irrigation, fertilization, and pest control."
+    ]
+  },
+  {
+    "class_name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "plant": "Grapes",
+    "symptoms": [
+      "Brown, irregular spots form on leaves, often near leaf margins.",
+      "Spots may enlarge and merge, causing large dead areas.",
+      "Severely infected leaves may fall prematurely, reducing vine strength.",
+      "Black fungal fruiting bodies may develop in dead tissue under humid conditions.",
+      "Yield reduction due to fewer healthy leaves for photosynthesis."
+    ],
+    "causes": [
+      "Caused by the fungus Pseudocercospora vitis (formerly Isariopsis clavispora).",
+      "Spores spread by rain splash and wind.",
+      "High humidity and frequent rain events favor disease development.",
+      "Dense canopy and poor airflow increase risk of infection."
+    ],
+    "prevention": [
+      "Prune vines to open up canopy and improve air circulation.",
+      "Avoid overhead irrigation that keeps foliage wet.",
+      "Apply preventive fungicides at early growth stages.",
+      "Remove and destroy infected leaves and debris after harvest."
+    ],
+    "cure": [
+      "Use fungicides like mancozeb or copper-based sprays.",
+      "Scout regularly to catch early signs of infection.",
+      "Improve drainage in the vineyard to reduce humidity levels.",
+      "Combine cultural practices with chemical treatments for effective control."
+    ]
+  },
+  {
+    "class_name": "Orange___Haunglongbing_(Citrus_greening)",
+    "plant": "Orange",
+    "symptoms": [
+      "Yellowing of shoots and asymmetric blotchy mottling on leaves.",
+      "Small, lopsided, bitter fruits that stay green at the bottom.",
+      "Twig dieback and overall tree decline.",
+      "Leaf veins may become thickened and corky.",
+      "Premature fruit drop and tree death in severe cases."
+    ],
+    "causes": [
+      "Caused by the bacterium Candidatus Liberibacter, transmitted by Asian citrus psyllid.",
+      "Bacteria block nutrient flow inside the tree.",
+      "Spread is accelerated by movement of infected plant material.",
+      "Favored by warm climates where psyllid populations thrive."
+    ],
+    "prevention": [
+      "Use certified disease-free nursery trees.",
+      "Control psyllid populations using insecticides and biological controls.",
+      "Remove and destroy infected trees promptly to prevent spread.",
+      "Implement area-wide management programs involving all growers."
+    ],
+    "cure": [
+      "No cure currently exists.",
+      "Manage symptoms by maintaining tree health with proper nutrition and irrigation.",
+      "Apply antibacterial treatments like oxytetracycline (injection) where allowed.",
+      "Research ongoing into resistant rootstocks and gene-editing solutions."
+    ]
+  },
+  {
+    "class_name": "Peach___Bacterial_spot",
+    "plant": "Peach",
+    "symptoms": [
+      "Small, dark, water-soaked spots on leaves and fruits.",
+      "Leaf spots become angular and may drop out, creating 'shot holes.'",
+      "Fruits develop rough, cracked, sunken lesions.",
+      "Twig cankers may develop in severe infections.",
+      "Premature leaf drop reduces tree vigor."
+    ],
+    "causes": [
+      "Caused by the bacterium Xanthomonas arboricola pv. pruni.",
+      "Bacteria spread by rain splash and wind-driven rain.",
+      "Infections favored by warm, wet weather during spring and early summer.",
+      "Wounds and natural openings serve as infection sites."
+    ],
+    "prevention": [
+      "Plant resistant peach varieties if available.",
+      "Prune trees to improve air circulation and drying of foliage.",
+      "Apply copper-based bactericides preventively, especially before rainy periods.",
+      "Avoid excessive nitrogen fertilization which promotes tender, susceptible growth."
+    ],
+    "cure": [
+      "There is no cure once symptoms appear.",
+      "Manage spread by removing severely infected twigs.",
+      "Apply copper sprays during dormant and growing seasons to limit spread.",
+      "Maintain tree health to improve resistance to infection."
+    ]
+  },
+  {
+    "class_name": "Pepper,_bell___Bacterial_spot",
+    "plant": "Bell Pepper",
+    "symptoms": [
+      "Water-soaked, dark lesions on leaves, stems, and fruits.",
+      "Leaf lesions may turn brown and crack, leading to leaf drop.",
+      "Fruit lesions are raised, rough, and corky.",
+      "Severe infection leads to defoliation and yield loss.",
+      "Bacterial ooze may be visible under humid conditions."
+    ],
+    "causes": [
+      "Caused by the bacterium Xanthomonas campestris pv. vesicatoria.",
+      "Spread through infected seeds, transplants, and splashing water.",
+      "Favored by warm (75–90°F), humid conditions.",
+      "Injury to plants through cultivation or insects can facilitate infection."
+    ],
+    "prevention": [
+      "Use certified disease-free seeds and transplants.",
+      "Rotate crops and avoid planting peppers and tomatoes in the same area consecutively.",
+      "Apply copper-based bactericides as preventive treatments.",
+      "Manage irrigation to avoid prolonged leaf wetness."
+    ],
+    "cure": [
+      "No complete cure once the disease establishes.",
+      "Limit spread by removing infected plants early.",
+      "Regular copper applications can help suppress bacterial populations.",
+      "Implement strict field sanitation practices."
+    ]
+  },
+  {
+    "class_name": "Potato___Early_blight",
+    "plant": "Potato",
+    "symptoms": [
+      "Dark, concentric ring lesions (target spots) on older leaves.",
+      "Yellowing around lesions and leaf drop.",
+      "Stem lesions may occur, leading to weakened plants.",
+      "Infected tubers develop sunken, dark lesions under storage conditions.",
+      "Yield losses due to reduced foliage and weakened plants."
+    ],
+    "causes": [
+      "Caused by the fungus Alternaria solani.",
+      "Spores spread by wind, rain, and irrigation water.",
+      "Disease favored by warm temperatures (78–86°F) and extended leaf wetness.",
+      "Infection starts on stressed or senescing foliage."
+    ],
+    "prevention": [
+      "Plant certified, disease-free seed potatoes.",
+      "Rotate crops with non-host plants like cereals or legumes.",
+      "Apply fungicides preventively, especially during periods of wet weather.",
+      "Optimize plant spacing to improve airflow."
+    ],
+    "cure": [
+      "Use fungicides like chlorothalonil, mancozeb, or strobilurins early.",
+      "Remove and destroy infected plant debris after harvest.",
+      "Irrigate in a way that minimizes leaf wetness (drip irrigation).",
+      "Maintain balanced fertilization to strengthen plant defenses."
+    ]
+  },
+  {
+    "class_name": "Potato___Late_blight",
+    "plant": "Potato",
+    "symptoms": [
+      "Water-soaked, dark lesions on leaves and stems.",
+      "Lesions rapidly enlarge, turning brown and necrotic with white moldy growth under humid conditions.",
+      "Tuber infections cause firm, brown, granular rot.",
+      "Rapid plant collapse and death in severe infections.",
+      "Foul odor from rotting tubers during storage."
+    ],
+    "causes": [
+      "Caused by the oomycete Phytophthora infestans.",
+      "Spores spread by rain, wind, and contaminated equipment.",
+      "Favored by cool, wet weather (60–70°F with high humidity).",
+      "Infections start from infected seed tubers or volunteer plants."
+    ],
+    "prevention": [
+      "Plant resistant varieties where available.",
+      "Destroy volunteer potatoes and cull piles.",
+      "Apply protective fungicides before infection periods.",
+      "Practice crop rotation and proper field sanitation."
+    ],
+    "cure": [
+      "Fungicides like chlorothalonil, mancozeb, or cyazofamid can help limit spread.",
+      "Rogue out and destroy infected plants immediately.",
+      "Avoid overhead irrigation that prolongs leaf wetness.",
+      "Monitor weather forecasts and apply fungicides accordingly."
+    ]
+  },
+  {
+    "class_name": "Raspberry___healthy",
+    "plant": "Raspberry",
+    "symptoms": [
+      "No symptoms of disease.",
+      "Vigorous plant growth with lush, green leaves.",
+      "Healthy fruit development without lesions or discolorations.",
+      "Absence of leaf spots, cane blights, or fruit rots.",
+      "Uniform color and firmness of berries."
+    ],
+    "causes": [
+      "Good cultural practices and environmental conditions.",
+      "Proper soil drainage and fertility management.",
+      "Use of disease-free planting material.",
+      "Effective pest and disease monitoring and control."
+    ],
+    "prevention": [
+      "Maintain regular monitoring and preventive care.",
+      "Prune to encourage good airflow and reduce humidity.",
+      "Water at the base to avoid wetting foliage.",
+      "Use mulch to suppress weeds and retain soil moisture."
+    ],
+    "cure": [
+      "No cure needed for healthy plants.",
+      "Continue preventive practices to maintain plant health."
+    ]
+  },
+  {
+    "class_name": "Soybean___healthy",
+    "plant": "Soybean",
+    "symptoms": [
+      "Vigorous, upright plants with uniform leaf color.",
+      "No spotting, chlorosis, or wilting observed.",
+      "Pods develop normally without deformation or rot.",
+      "Roots are white and healthy without lesions.",
+      "High yield potential with consistent pod set."
+    ],
+    "causes": [
+      "Absence of pathogens and pest pressure.",
+      "Good agronomic practices like crop rotation and soil fertility management.",
+      "Use of high-quality, certified seeds.",
+      "Timely irrigation and pest management."
+    ],
+    "prevention": [
+      "Implement regular crop scouting.",
+      "Rotate crops to prevent buildup of soilborne pathogens.",
+      "Apply balanced fertilization based on soil test recommendations.",
+      "Manage weeds, insects, and diseases promptly."
+    ],
+    "cure": [
+      "No cure needed for healthy soybean plants.",
+      "Maintain vigilant field management to sustain health."
+    ]
+  },
+  {
+    "class_name": "Squash___Powdery_mildew",
+    "plant": "Squash",
+    "symptoms": [
+      "White, powdery fungal growth on leaves, stems, and flowers.",
+      "Leaves may yellow, curl, and die prematurely.",
+      "Reduced fruit quality and yield.",
+      "Severe infections can lead to plant death.",
+      "Fungal growth often first appears on shaded, older leaves."
+    ],
+    "causes": [
+      "Caused by several fungal species, including Podosphaera xanthii and Erysiphe cichoracearum.",
+      "Spores spread by wind.",
+      "Disease favored by warm, dry days and cool, humid nights.",
+      "High nitrogen levels encourage tender, susceptible growth."
+    ],
+    "prevention": [
+      "Plant resistant squash varieties.",
+      "Ensure good air circulation through proper plant spacing.",
+      "Water plants at the base rather than overhead.",
+      "Apply preventive fungicides if powdery mildew is common locally."
+    ],
+    "cure": [
+      "Apply fungicides like sulfur, potassium bicarbonate, or myclobutanil early.",
+      "Remove and destroy heavily infected leaves to reduce spread.",
+      "Manage fertilization to avoid excessive nitrogen levels.",
+      "Use baking soda sprays as an organic alternative."
+    ]
+  },
+  {
+    "class_name": "Strawberry___Leaf_scorch",
+    "plant": "Strawberry",
+    "symptoms": [
+      "Small, purple to reddish spots on leaves that enlarge over time.",
+      "Spots may merge and cause large dead areas.",
+      "Leaves dry out and curl but typically remain attached to the plant.",
+      "Severe cases lead to reduced fruit yield and poor plant vigor.",
+      "No fungal growth observed on the underside of leaves."
+    ],
+    "causes": [
+      "Caused by the fungus Diplocarpon earlianum.",
+      "Spread through splashing rain and irrigation water.",
+      "Favored by prolonged periods of wet foliage and moderate temperatures.",
+      "Overcrowded plantings with poor airflow increase risk."
+    ],
+    "prevention": [
+      "Plant resistant varieties if available.",
+      "Space plants properly to enhance airflow.",
+      "Avoid overhead watering to minimize leaf wetness.",
+      "Apply fungicides during early stages of leaf development if needed."
+    ],
+    "cure": [
+      "Apply fungicides such as captan or myclobutanil at the first signs.",
+      "Remove and destroy infected leaves and debris.",
+      "Improve drainage and sunlight exposure.",
+      "Combine chemical and cultural methods for effective control."
+    ]
+  },
+  {
+    "class_name": "Tomato___Bacterial_spot",
+    "plant": "Tomato",
+    "symptoms": [
+      "Small, water-soaked spots on leaves, stems, and fruit.",
+      "Spots enlarge and turn brown with a yellow halo.",
+      "Leaves may become tattered and drop prematurely.",
+      "Fruit lesions are raised, rough, and scabby.",
+      "Severe infections can cause defoliation and yield loss."
+    ],
+    "causes": [
+      "Caused by several species of Xanthomonas bacteria.",
+      "Spread through contaminated seeds, tools, and splashing water.",
+      "Favored by warm (77–86°F), humid conditions.",
+      "Entry through wounds and natural openings."
+    ],
+    "prevention": [
+      "Use certified, disease-free seeds and transplants.",
+      "Rotate crops and avoid overhead irrigation.",
+      "Apply copper-based bactericides preventatively.",
+      "Sanitize tools and manage weeds."
+    ],
+    "cure": [
+      "No cure once established, focus on preventing spread.",
+      "Remove severely infected plants.",
+      "Use copper sprays combined with mancozeb for better results.",
+      "Maintain good field hygiene practices."
+    ]
+  },
+  {
+    "class_name": "Tomato___Early_blight",
+    "plant": "Tomato",
+    "symptoms": [
+      "Dark brown spots with concentric rings on older leaves ('target spots').",
+      "Yellowing around lesions leading to leaf drop.",
+      "Fruit can develop dark, sunken lesions at the stem end.",
+      "Premature defoliation weakens the plant.",
+      "Overall yield and fruit quality decrease."
+    ],
+    "causes": [
+      "Caused by the fungus Alternaria solani.",
+      "Spores spread by rain splash, wind, and contaminated equipment.",
+      "Favored by warm, humid weather.",
+      "Often starts on older or stressed leaves."
+    ],
+    "prevention": [
+      "Rotate crops away from tomatoes and potatoes.",
+      "Use resistant varieties if available.",
+      "Apply fungicides preventively when conditions are favorable.",
+      "Mulch soil to reduce spore splash."
+    ],
+    "cure": [
+      "Fungicide applications (chlorothalonil, mancozeb, or azoxystrobin).",
+      "Remove and destroy infected debris.",
+      "Optimize plant spacing for airflow.",
+      "Water plants at the base."
+    ]
+  },
+  {
+    "class_name": "Tomato___Late_blight",
+    "plant": "Tomato",
+    "symptoms": [
+      "Large, irregular, water-soaked lesions on leaves and stems.",
+      "Lesions rapidly turn brown and produce white mold under humid conditions.",
+      "Fruits develop greasy, firm, brown lesions.",
+      "Rapid plant collapse and death under favorable conditions.",
+      "A foul smell from rotting fruits and plant tissue."
+    ],
+    "causes": [
+      "Caused by the oomycete Phytophthora infestans.",
+      "Spread through rain, wind, and contaminated equipment.",
+      "Favored by cool, wet weather (60–70°F).",
+      "Initiated from infected transplants or volunteer plants."
+    ],
+    "prevention": [
+      "Plant resistant varieties when possible.",
+      "Apply fungicides before infection periods.",
+      "Destroy infected plants immediately upon detection.",
+      "Avoid overhead irrigation and ensure good air circulation."
+    ],
+    "cure": [
+      "Use systemic fungicides like cyazofamid or mandipropamid.",
+      "Remove and destroy infected plants and fruits.",
+      "Practice crop rotation and sanitation.",
+      "Monitor weather and apply protective sprays."
+    ]
+  },
+  {
+    "class_name": "Tomato___Leaf_Mold",
+    "plant": "Tomato",
+    "symptoms": [
+      "Pale green or yellow spots on upper leaf surfaces.",
+      "Velvety olive-green to gray mold on the underside of leaves.",
+      "Leaves curl, wither, and drop off.",
+      "Fruit may develop leathery, dark lesions in severe cases.",
+      "Disease progression favors greenhouse environments."
+    ],
+    "causes": [
+      "Caused by the fungus Passalora fulva (formerly Fulvia fulva).",
+      "Spores spread through air, water splash, and contaminated surfaces.",
+      "Favored by high humidity (>85%) and moderate temperatures (60–80°F).",
+      "Poor air circulation in dense plantings increases risk."
+    ],
+    "prevention": [
+      "Grow resistant tomato varieties.",
+      "Ventilate greenhouses well and avoid overhead watering.",
+      "Apply fungicides preventively if necessary.",
+      "Space plants adequately for better airflow."
+    ],
+    "cure": [
+      "Use fungicides like chlorothalonil, mancozeb, or copper-based products.",
+      "Remove and destroy infected leaves.",
+      "Reduce humidity and increase air movement.",
+      "Disinfect greenhouse structures regularly."
+    ]
+  },
+  {
+    "class_name": "Tomato___Septoria_leaf_spot",
+    "plant": "Tomato",
+    "symptoms": [
+      "Small, circular spots with dark borders and tan or gray centers on leaves.",
+      "Spots often contain tiny black fruiting bodies (pycnidia).",
+      "Lower leaves are affected first, leading to yellowing and defoliation.",
+      "Fruit infection is rare but plant vigor reduces.",
+      "Heavy infections can cause total plant collapse."
+    ],
+    "causes": [
+      "Caused by the fungus Septoria lycopersici.",
+      "Spread by rain splash, wind, and infected debris.",
+      "Favored by warm (68–77°F), wet conditions.",
+      "Survives on plant debris and volunteer tomato plants."
+    ],
+    "prevention": [
+      "Use certified disease-free seeds and transplants.",
+      "Rotate crops and avoid overhead irrigation.",
+      "Apply protective fungicides preventively.",
+      "Remove infected plant material promptly."
+    ],
+    "cure": [
+      "Use fungicides such as chlorothalonil, mancozeb, or copper products.",
+      "Maintain good garden hygiene.",
+      "Optimize spacing for airflow and quicker drying.",
+      "Mulch soil to prevent splash dispersal."
+    ]
+  }
+  ]
+}

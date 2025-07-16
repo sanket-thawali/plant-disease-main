@@ -1,0 +1,84 @@
+.plant-detail-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff9f9;
+    transition: transform 0.2s;
+    /* backdrop-filter: blur(20px); */
+    position: relative;
+    top: 150px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .plant-detail-card {
+    max-width: 95%;
+    padding: 10px;
+    top: 100px;
+  }
+
+  .plant-image-card {
+    max-width: 100%;
+    height: auto;
+    left: 0;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  p, li {
+    font-size: 16px;
+  }
+}
+
+.plant-detail-card:hover {
+    transform: scale(1.02);
+}
+
+.plant-image-card {
+    max-width: 70%;
+    height: 35vh;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 22%;
+}
+
+h1 {
+    text-align: center;
+    color: #111111;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #070707;
+    margin-top: 15px;
+}
+
+p {
+    color: #090909;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-size: 20px;
+}
